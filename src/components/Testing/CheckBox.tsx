@@ -3,12 +3,8 @@ import { useForm } from "react-hook-form";
 function MyForm() {
   const { register, handleSubmit } = useForm();
 
-  const onSubmit = (data) => {
-    console.log(data); // Will log the form data, including the checkbox value
-  };
-
   return (
-    <form onSubmit={handleSubmit(onSubmit)}>
+    <form onSubmit={handleSubmit(() => console.log("submitted"))}>
       <label>
         <input type="checkbox" {...register("agreeToTerms")} />
         Agree to Terms

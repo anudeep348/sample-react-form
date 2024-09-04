@@ -9,7 +9,7 @@
 
 ### The project is deployed on Netlify and can be accessed [here](https://form-validation-rose.vercel.app/)
 
-# To use react hokk form with zod follow the steps below:
+# To use react hook form with zod follow the steps below:
 
 1. Install the following packages:
 
