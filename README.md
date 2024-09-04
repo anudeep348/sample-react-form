@@ -7,7 +7,7 @@
 - zod
 - react-hot-toast
 
-### The project is deployed on Netlify and can be accessed [here](https://form-validation-rose.vercel.app/)
+### The project is deployed on Netlify and can be accessed [here](https://contact-form-by-anudeep.netlify.app/)
 
 # To use react hook form with zod follow the steps below:
 
